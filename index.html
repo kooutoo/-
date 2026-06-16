@@ -321,7 +321,9 @@
 
     <div id="study-panel" class="panel active">
       <input type="text" class="search-bar" id="search-input" placeholder="输入关键字搜索语法或释义...">
-      <div class="grammar-list" id="study-list"></div>
+      <div class="grammar-list" id="study-list">
+        <div class="empty-tips">📖 数据加载中，请稍候...</div>
+      </div>
     </div>
 
     <div id="quiz-panel" class="panel">
@@ -361,30 +363,36 @@
   <script>
     (async function () {
 
-let grammarData = [];
+      let grammarData = [];
 
-async function loadGrammarData() {
+      async function loadGrammarData() {
 
-    try {
+        try {
 
-        const response = await fetch('./data/tem4.json');
+          const response = await fetch('./data/tem4.json');
 
-        grammarData = await response.json();
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
 
-        console.log("语法加载成功：", grammarData.length);
+          grammarData = await response.json();
 
-        renderStudyList();
-        renderNotebookList();
-        updateNotebookCount();
+          console.log("语法加载成功：", grammarData.length);
 
-    } catch (err) {
+          renderStudyList();
+          renderNotebookList();
+          updateNotebookCount();
 
-        console.error(err);
+        } catch (err) {
 
-        alert("tem4.json加载失败");
+          console.error(err);
 
-    }
-}
+          const studyList = document.querySelector('#study-list');
+          if (studyList) {
+            studyList.innerHTML = '<div class="empty-tips">⚠️ 语法数据加载失败，请检查网络或刷新页面重试</div>';
+          }
+        }
+      }
       // ==========================================
       // 状态变量
       // ==========================================
@@ -392,9 +400,21 @@ async function loadGrammarData() {
       let currentQuizItem = null;
       let currentQuizMode = 'all';
       let currentQuestionType = 'g2m';
-      let totalAnswered = 0;
-      let correctAnswered = 0;
+      let stats = {
+        all: { total: 0, correct: 0 },
+        notebook: { total: 0, correct: 0 }
+      };
 
+      try {
+        const savedStats = localStorage.getItem('nss4_stats');
+        if (savedStats) {
+          const parsed = JSON.parse(savedStats);
+          if (parsed.all) stats.all = parsed.all;
+          if (parsed.notebook) stats.notebook = parsed.notebook;
+        }
+      } catch (e) {
+        // 解析失败就用默认值，不用处理
+      }
       // 初始化错题本
       try {
         const saved = localStorage.getItem('nss4_notebook');
@@ -526,8 +546,7 @@ async function loadGrammarData() {
           quizPanel.classList.add('active');
           if (!currentQuizItem) {
             currentQuizMode = 'all';
-            totalAnswered = 0;
-            correctAnswered = 0;
+
             updateQuizScoreDisplay();
             nextQuestion();
           }
@@ -609,8 +628,9 @@ async function loadGrammarData() {
       // 测试模式核心
       // ==========================================
       function updateQuizScoreDisplay() {
-        const pct = totalAnswered > 0 ? Math.round((correctAnswered / totalAnswered) * 100) : 0;
-        quizScore.innerText = `正确率: ${correctAnswered} / ${totalAnswered} (${pct}%)`;
+        const current = stats[currentQuizMode];
+        const pct = current.total > 0 ? Math.round((current.correct / current.total) * 100) : 0;
+        quizScore.innerText = `正确率: ${current.correct} / ${current.total} (${pct}%)`;
       }
 
       function updateStarBtnState() {
@@ -661,12 +681,13 @@ async function loadGrammarData() {
       function handleAnswer(selectedBtn, selectedOpt, correctItem) {
         $$('.option-btn').forEach(btn => btn.disabled = true);
 
-        totalAnswered++;
+        stats[currentQuizMode].total++;
+
         const isCorrect = selectedOpt.grammar === correctItem.grammar;
 
         if (isCorrect) {
           selectedBtn.classList.add('correct');
-          correctAnswered++;
+          stats[currentQuizMode].correct++;
         } else {
           selectedBtn.classList.add('wrong');
           $$('.option-btn').forEach(btn => {
@@ -679,6 +700,8 @@ async function loadGrammarData() {
             saveNotebook();
           }
         }
+
+        localStorage.setItem('nss4_stats', JSON.stringify(stats));
 
         updateQuizScoreDisplay();
         fbConn.innerText = correctItem.connection;
@@ -708,8 +731,7 @@ async function loadGrammarData() {
           return;
         }
         currentQuizMode = 'notebook';
-        totalAnswered = 0;
-        correctAnswered = 0;
+        currentQuizMode = 'notebook';
         updateQuizScoreDisplay();
         switchTab('quiz');
         nextQuestion();
