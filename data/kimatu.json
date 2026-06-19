@@ -1,0 +1,681 @@
+[
+    {
+        "grammar": "～以上（は）＜9-2＞",
+        "meaning": "<推理的根据>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[Vる]一方だ＜9-2＞",
+        "meaning": "<不断增强的势头>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]以来／[V]て以来＜5-1＞",
+        "meaning": "<时间状语>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～上で＜10-2＞",
+        "meaning": "<判断成立的范围>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]（よ）うものなら＜8-2＞",
+        "meaning": "<条件>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～恐れがある＜9-2＞",
+        "meaning": "<可能性>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]かける＜8-2＞",
+        "meaning": "<动作的阶段>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[疑问词＋]～かというと＜6-2＞",
+        "meaning": "<设问>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N/V]がちだ＜7-2＞",
+        "meaning": "<容易出现的情况>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]かねない＜9-2＞",
+        "meaning": "<可能性>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "から＜9-1＞",
+        "meaning": "<根据、起因>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]きる／きれる／きれない＜7-1＞",
+        "meaning": "<动作彻底与否>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～くせに＜7-1＞",
+        "meaning": "<转折>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～けれども＜6-2＞",
+        "meaning": "<单纯接续>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ことに＜8-2＞",
+        "meaning": "<主观评价>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～こともあって／こともあり＜10-2＞",
+        "meaning": "<原因>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "さえ＜5-2＞",
+        "meaning": "<凸显代表性的事物>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "さえ～ば＜8-1＞",
+        "meaning": "<充分条件>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]じゃ（では）あるまいし＜7-1＞",
+        "meaning": "<否定性原因>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]ずにはいられない＜7-1＞",
+        "meaning": "<不由自主>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "すら＜9-2＞",
+        "meaning": "<凸显极端事例>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "それに対して／～（の）に対して＜5-2＞",
+        "meaning": "<对比>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "だからといって＜5-2＞",
+        "meaning": "<转折>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "だけ＜6-2＞",
+        "meaning": "<相应程度>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～だけあって＜8-2＞",
+        "meaning": "<成正比的因果关系>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]ったら＜10-1＞",
+        "meaning": "<（负面）评价的对象>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]つつ＜8-2＞",
+        "meaning": "<同时进行><转折>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]つつある＜10-2＞",
+        "meaning": "<持续变化>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "一っぱなし＜7-1＞",
+        "meaning": "<放任>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "一っぽい＜8-2＞",
+        "meaning": "<性质、倾向>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]てからでないと＜8-2＞",
+        "meaning": "<必要条件>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]てこそ＜7-2＞",
+        "meaning": "<凸显>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[A/V]て（で）ならない＜5-2＞",
+        "meaning": "<极端的心理状态>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]てばかりだ／てばかりいる＜7-1＞",
+        "meaning": "<限定状态>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～というわけだ＜5-2＞",
+        "meaning": "<说明>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～といえば～＜7-2＞",
+        "meaning": "<让步>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～といってよい＜6-2＞",
+        "meaning": "<评价>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[Nの／A]ところ（を）＜8-1＞",
+        "meaning": "<对方所处状态>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "ところが＜5-2＞",
+        "meaning": "<转折>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～とすれば＜6-2＞",
+        "meaning": "<条件>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[Vた]とたん（に）＜8-2＞",
+        "meaning": "<契机出现>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "とても～ない＜7-2＞",
+        "meaning": "<否定可能性>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～とともに＜9-2＞",
+        "meaning": "<变化>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]となっている＜5-1＞",
+        "meaning": "<既定>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ないことはない＜10-1＞",
+        "meaning": "<双重否定>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N1]ならではの[N2]＜6-1＞",
+        "meaning": "<特有的事物>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～なり（～なり）＜6-2＞",
+        "meaning": "<二者择一>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]に応じて＜9-1＞",
+        "meaning": "<根据>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～にかかわらず／にかかわりなく＜5-2＞",
+        "meaning": "<无区别>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]に代わって／に代わり＜10-2＞",
+        "meaning": "<代替>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]に関する／に関して＜9-1＞",
+        "meaning": "<内容>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～に決まっている＜8-2＞",
+        "meaning": "<确信、断定>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]にしてみれば＜5-2＞",
+        "meaning": "<看法>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～にすぎない＜9-1＞",
+        "meaning": "<程度低>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～にちがいない＜9-2＞",
+        "meaning": "<有把握的判断>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～に伴って／に伴う＜9-2＞",
+        "meaning": "<伴随变化>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]に基づいて／に基づき＜7-1＞",
+        "meaning": "<基准>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]ねばならない＜6-2＞",
+        "meaning": "<义务>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[Vる]のだった＜6-2＞",
+        "meaning": "<后悔>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～のみならず＜10-2＞",
+        "meaning": "<范围>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ばかりに＜6-1＞",
+        "meaning": "<消极性的原因>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]はともかく（として）＜5-2＞",
+        "meaning": "<另当别论>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "一ぶり＜10-2＞",
+        "meaning": "<状态>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]までして／[V]てまで＜5-1＞",
+        "meaning": "<极端的程度>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[Vる]までもない＜5-2＞",
+        "meaning": "<没有必要>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～まま＜9-2＞",
+        "meaning": "<保持原状>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]向け＜8-1＞",
+        "meaning": "<对象>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～もの＜10-1＞",
+        "meaning": "<强调原因、理由>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ものだ＜6-1＞",
+        "meaning": "<事物的本质>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ものだ＜7-2＞",
+        "meaning": "<回顾、感叹>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ものの＜10-2＞",
+        "meaning": "<转折>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]ようがない／ようもない＜7-2＞",
+        "meaning": "<无法>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "～ように＜5-2＞",
+        "meaning": "<铺垫>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]を問わず＜5-2＞",
+        "meaning": "<无区别>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]をもって＜7-2＞",
+        "meaning": "<手段、方式>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]得る＜2-2＞",
+        "meaning": "<动作行为的可能性>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]がたい＜1-2＞",
+        "meaning": "<难实现>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "〜かと思ったら＜1-2＞",
+        "meaning": "<出乎意料>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]からいうと＜2-2＞",
+        "meaning": "<判断的依据、基准>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[A₁]かれ[A₂]かれ＜2-2＞",
+        "meaning": "<全面肯定>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[Vｓ]ことなく＜1-2＞",
+        "meaning": "<未实行>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]ずして＜2-2＞",
+        "meaning": "<否定>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "せめて＜2-2＞",
+        "meaning": "<最低限度>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[V]そばから＜1-1＞",
+        "meaning": "<先后发生>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "それにしても＜2-2＞",
+        "meaning": "<让步转折>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N₁]与いい、[N₂]といい＜2-1＞",
+        "meaning": "<并列举例>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "〜というところだ＜2-2＞",
+        "meaning": "<阶段、程度>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]ときたら＜1-1＞",
+        "meaning": "<话题>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "〜としたら＜1-2＞",
+        "meaning": "<假定条件>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "〜ない限り＜1-2＞",
+        "meaning": "<否定性的唯一条件>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "なぜ（何故）なら（ば）〜からだ＜2-2＞",
+        "meaning": "<说明原因>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "なりとも＜2-2＞",
+        "meaning": "<例示>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]にも增して＜2-1＞",
+        "meaning": "<超过基准>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]の／[V]ついでに＜2-2＞",
+        "meaning": "<动作的并行>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "〜反面＜1-2＞",
+        "meaning": "<相反的两面>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "〜まま＜2-2＞",
+        "meaning": "<保持原状>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    },
+    {
+        "grammar": "[N]をめぐって／めぐる＜1-2＞",
+        "meaning": "<中心点>",
+        "connection": "",
+        "example_jp": "",
+        "example_zh": ""
+    }
+]
