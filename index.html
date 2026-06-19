@@ -71,6 +71,46 @@
       color: white;
     }
 
+    .sub-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+
+    .sub-tab-btn {
+      padding: 6px 18px;
+      background-color: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--text-color);
+      transition: all 0.2s;
+    }
+
+    .sub-tab-btn.active {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+      color: white;
+      font-weight: bold;
+    }
+
+    .quiz-source-selector {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .quiz-source-selector label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+
     .panel {
       display: none;
     }
@@ -320,6 +360,10 @@
     </div>
 
     <div id="study-panel" class="panel active">
+      <div class="sub-tabs" id="study-sub-tabs">
+        <button class="sub-tab-btn active" data-source="tem4">专四语法</button>
+        <button class="sub-tab-btn" data-source="kimatu">期末语法</button>
+      </div>
       <input type="text" class="search-bar" id="search-input" placeholder="输入关键字搜索语法或释义...">
       <div class="grammar-list" id="study-list">
         <div class="empty-tips">📖 数据加载中，请稍候...</div>
@@ -327,6 +371,10 @@
     </div>
 
     <div id="quiz-panel" class="panel">
+      <div class="quiz-source-selector" id="quiz-source-selector">
+        <label><input type="radio" name="quiz-source" value="tem4" checked> 专四题库</label>
+        <label><input type="radio" name="quiz-source" value="kimatu"> 期末题库</label>
+      </div>
       <div class="quiz-container">
         <div class="quiz-stats">
           <span id="quiz-source-text">全库测试</span>
@@ -363,21 +411,42 @@
   <script>
     (async function () {
 
-      let grammarData = [];
+      // ===== 新增：两个题库的数据容器 + 数据源映射 =====
+      let tem4Data = [];
+      let kimatuData = [];
+
+      const dataMap = {
+        tem4: () => tem4Data,
+        kimatu: () => kimatuData
+      };
+
+      // 语法学习模块当前选中的题库（tem4 / kimatu）
+      let currentStudySource = 'tem4';
+      // 随机做题模块当前选中的题库（tem4 / kimatu）
+      let quizSource = 'tem4';
+      // ===== 新增结束 =====
+
+      let grammarData = []; // 兼容旧逻辑：始终等于 dataMap[currentStudySource]()
 
       async function loadGrammarData() {
 
         try {
 
-          const response = await fetch('./data/tem4.json');
+          const [tem4Res, kimatuRes] = await Promise.all([
+            fetch('./data/tem4.json'),
+            fetch('./data/kimatu.json')
+          ]);
 
-          if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-          }
+          if (!tem4Res.ok) throw new Error(`HTTP ${tem4Res.status} (tem4.json)`);
+          if (!kimatuRes.ok) throw new Error(`HTTP ${kimatuRes.status} (kimatu.json)`);
 
-          grammarData = await response.json();
+          tem4Data = await tem4Res.json();
+          kimatuData = await kimatuRes.json();
 
-          console.log("语法加载成功：", grammarData.length);
+          grammarData = dataMap[currentStudySource]();
+
+          console.log("专四语法加载成功：", tem4Data.length);
+          console.log("期末语法加载成功：", kimatuData.length);
 
           renderStudyList();
           renderNotebookList();
@@ -563,7 +632,9 @@
         const keyword = searchInput.value.toLowerCase().trim();
         studyList.innerHTML = '';
 
-        const filtered = grammarData.filter(item =>
+        const currentData = dataMap[currentStudySource](); // 新增：按当前子标签取数据
+
+        const filtered = currentData.filter(item =>
           item.grammar.toLowerCase().includes(keyword) ||
           item.meaning.toLowerCase().includes(keyword)
         );
@@ -646,14 +717,16 @@
       }
 
       function nextQuestion() {
-        const pool = currentQuizMode === 'all' ? grammarData : notebook;
+        const quizPoolData = dataMap[quizSource](); // 新增：按选中的题库取数据
+        const pool = currentQuizMode === 'all' ? quizPoolData : notebook;
         if (pool.length === 0) {
           alert('错题本中没有语法！请先在测试中答错题目以添加。');
           switchTab('study');
           return;
         }
 
-        quizSourceText.innerText = currentQuizMode === 'all' ? '📚 全库测试模式' : '🔥 错题专项消灭模式';
+        const sourceLabel = quizSource === 'tem4' ? '专四题库' : '期末题库';
+        quizSourceText.innerText = currentQuizMode === 'all' ? `📚 全库测试模式（${sourceLabel}）` : '🔥 错题专项消灭模式';
         nextBtn.style.display = 'none';
         quizFeedbackBox.style.display = 'none';
 
@@ -663,7 +736,7 @@
         quizTypeBadge.innerText = isG2M ? '【请选择对应的中文释义】' : '【请选择对应的日文语法】';
         quizQuestionText.innerText = isG2M ? currentQuizItem.grammar : currentQuizItem.meaning;
 
-        const options = generateOptions(currentQuizItem, grammarData);
+        const options = generateOptions(currentQuizItem, quizPoolData);
         quizOptionsBox.innerHTML = '';
         options.forEach(opt => {
           const btn = document.createElement('button');
@@ -744,6 +817,29 @@
         btn.addEventListener('click', function () {
           const tab = this.getAttribute('data-tab');
           switchTab(tab);
+        });
+      });
+
+      // ===== 新增：语法学习模块 - 专四/期末 切换 =====
+      $$('#study-sub-tabs .sub-tab-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+          $$('#study-sub-tabs .sub-tab-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentStudySource = this.getAttribute('data-source');
+          grammarData = dataMap[currentStudySource](); // 兼容旧变量
+          renderStudyList();
+        });
+      });
+
+      // ===== 新增：随机做题模块 - 专四/期末 题库切换 =====
+      $$('#quiz-source-selector input[name="quiz-source"]').forEach(radio => {
+        radio.addEventListener('change', function () {
+          if (this.checked) {
+            quizSource = this.value;
+            if (quizPanel.classList.contains('active')) {
+              nextQuestion(); // 立刻按新题库刷新当前题目
+            }
+          }
         });
       });
 
