@@ -2,680 +2,680 @@
     {
         "grammar": "～以上（は）＜9-2＞",
         "meaning": "<推理的根据>,表示说话人据此进行推理，理所当然得出后项结论。后项一般为说话人的判断、要求、愿望等主观",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "connection": "V、A1连体+以上（は）；N/A2词干+である＋以上（は）",
+        "example_jp": "薬である以上、飲み過ぎるのはとくない。",
+        "example_zh": "既然是药，服用过量可不好"
     },
     {
         "grammar": "[Vる]一方だ＜9-2＞",
-        "meaning": "<不断增强的势头>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<不断增强的势头>表示趋势不断加强，前面常常接増える／減る／たまる／進む",
+        "connection": "动作性名词/V词典型+一方だ",
+        "example_jp": "AIの進歩で、この業界は今後は衰退の一方だろう。",
+        "example_zh": "随着人工智能的进步，这个行业今后恐怕只会日渐衰落。"
     },
     {
         "grammar": "[N]以来／[V]て以来＜5-1＞",
-        "meaning": "<时间状语>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<时间状语>表示从那时起至今一直持续着某种状态",
+        "connection": "时间性名词or动作性名词/Vて+以来",
+        "example_jp": "あの時の大失敗以来、自信がなくなっちゃったよ。",
+        "example_zh": "自从那次巨大的失败之后，我就失去了自信。"
     },
     {
         "grammar": "～上で＜10-2＞",
-        "meaning": "<判断成立的范围>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<判断成立的范围>在～方面；在～上",
+        "connection": "V辞典型/N+の＋上で",
+        "example_jp": "関連業界を成熟させる上で、伝統文化の継承•保護、最新技術の導入、人材の育成などが、最も重要な点となる。",
+        "example_zh": "在推动相关行业走向成熟的过程中，传承和保护传通文化，引进最新技术和培养人才等，是至关重要的环节。"
     },
     {
         "grammar": "[V]（よ）うものなら＜8-2＞",
-        "meaning": "<条件>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<条件>意味一旦做了V这个动作，就会引发一个比较严重的后果用于强调说话人担心,不安等心情;万一……，就……；要是～就～",
+        "connection": "V意志形+ものなら",
+        "example_jp": "社長の提案に反対しようものなら、すぐに首にされてしまうだろう。",
+        "example_zh": "要是反对老板的提案，可能就马上被解雇了。"
     },
     {
         "grammar": "～恐れがある＜9-2＞",
-        "meaning": "<可能性>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<可能性>预测可能会发生不好的事情",
+        "connection": "Nの／V辞典型・ない+恐れがある",
+        "example_jp": "少子化は地域の将来にマイナスの影響を与える恐れがある。",
+        "example_zh": "少子化恐怕会对地区的未来有负面的影响。"
     },
     {
         "grammar": "[V]かける＜8-2＞",
-        "meaning": "<动作的阶段>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<动作的阶段>表示动作刚刚开始或正在进行中未完成；开始～、～了一半",
+        "connection": "V第一连用形+かける",
+        "example_jp": "手紙を書きかけたところに、電話がかかってきた。",
+        "example_zh": "正在写信的时候，电话打进来了。"
     },
     {
         "grammar": "[疑问词＋]～かというと＜6-2＞",
-        "meaning": "<设问>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<设问>表示设问，后句是对该设问的回答；要问～；要说～",
+        "connection": "疑问词+N/V/ADJ简体+かというと",
+        "example_jp": "なぜそんなに自信があったかというか、誰よりも努力していると思っているからです。",
+        "example_zh": "要说为什么这么有自信，那是因为我觉得自己比任何人都努力。"
     },
     {
         "grammar": "[N/V]がちだ＜7-2＞",
-        "meaning": "<容易出现的情况>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<容易出现的情况>表示容易出现某种倾向，常常发生某种情况；容易～、动不动就～。一般用于叙述消极情况，对比やすい；实际上能直接接的名词常见有「病気」",
+        "connection": "N/Vます＋がちだ",
+        "example_jp": "弟は小さい頃から病気がちで、学校へ行けないことが多かった。",
+        "example_zh": "弟弟从小就容易生病，经常不能去学校。"
     },
     {
         "grammar": "[V]かねない＜9-2＞",
-        "meaning": "<可能性>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<可能性>意思是可能会产生某种不好的后果，表说话人的否定性评价，有不安和担心；有可能会～；恐怕会～",
+        "connection": "V第一连用形+かねない",
+        "example_jp": "つまり、原語の知識が時には落とし穴になりがねないということだ",
+        "example_zh": " 也就是说，原语的知识有时可能会成为一个陷阱。"
     },
     {
         "grammar": "から＜9-1＞",
-        "meaning": "<根据、起因>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<根据、起因>表示判断的根据和起因；因为～；根据～",
+        "connection": "N+から",
+        "example_jp": "自分の不注意から事故を起こし、入院してしまった",
+        "example_zh": " 因为自己的不注意发生了事故，住院了。"
     },
     {
         "grammar": "[V]きる／きれる／きれない＜7-1＞",
-        "meaning": "<动作彻底与否>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<动作彻底与否>常用言い切る、思い切る（下定决心）断ち切る、売り切れる",
+        "connection": "V第一连用形+きる／きれる／きれない",
+        "example_jp": "それに五個も食べったら食べ切れないんじゃない？",
+        "example_zh": "如果吃五个的话，恐怕吃不完吧？"
     },
     {
         "grammar": "～くせに＜7-1＞",
-        "meaning": "<转折>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<转折>构成表示转折关系的从句，主句常常是对从句的否定性评价，表达说话人的不满，责备；明明～却～；不用于表述事物，或者说话人自己的行为、对比のに",
+        "connection": "Nの／V連体形／ADJ連体形+くせに",
+        "example_jp": "働かないくせいに、文句ばかりいっている",
+        "example_zh": "明明不工作却总是抱怨。"
     },
     {
         "grammar": "～けれども＜6-2＞",
-        "meaning": "<单纯接续>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<单纯接续>①作为开场白，讲前提②委婉陈述理由，说明情况③接续不具备转折意义的前后句",
+        "connection": "分句+けれども",
+        "example_jp": "私は今年20歳になりますけれども、まだ子供のような気がします。",
+        "example_zh": "我今年20岁了，但还是觉得自己像个孩子。"
     },
     {
         "grammar": "～ことに＜8-2＞",
-        "meaning": "<主观评价>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<主观评价>表示说话人对某个事实的主观评价，常常是感情上的反应；令人～；让人～；一般用于句首",
+        "connection": "表示情感、心理活动的形容词的连体形/Vた形+ことに",
+        "example_jp": "驚きたことに、本人は昔から黒沢作品が好きだったと言う",
+        "example_zh": "令人吃惊的是，据说他从以前就喜欢黑泽的作品。"
     },
     {
         "grammar": "～こともあって／こともあり＜10-2＞",
-        "meaning": "<原因>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<原因>表示引起后项事件的原因之一；也有～的原因；也有～的情况；暗示除此之外还有其他原因",
+        "connection": "V/ADJ連体形/Nという+こともあって／こともあり",
+        "example_jp": "中国アニメ産業は、ここ数年は、国をあげてバックアップしていることもあり、飛躍的に成長を遂げている。",
+        "example_zh": "中国动画产业这几年在举国之力的支持下，取得了飞跃式的发展。"
     },
     {
         "grammar": "さえ＜5-2＞",
-        "meaning": "<凸显代表性的事物>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<凸显代表性的事物>表示该事物尚且如此，其他的自不必说。连～都～、甚至",
+        "connection": "N+（に／で／と）＋さえ",
+        "example_jp": "卒業以来、彼からは全く連絡がなく、今どこで何をしているのかさえわからない。",
+        "example_zh": " 毕业以来，他完全没有联系了，现在在哪里做什么都不知道了。"
     },
     {
         "grammar": "さえ～ば＜8-1＞",
-        "meaning": "<充分条件>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<充分条件>表示只要满足前项条件，后项就能实现；只要～就～",
+        "connection": "①Nさえ＋ば②Vます形（VⅢ词干＋さえ＋すれば③A1く／A2で＋さえ＋あれば④Vてさえいれば",
+        "example_jp": "何も聞かないで、黙ってついてきさえすれば良い",
+        "example_zh": " 什么都不问了，只要默默地跟着就好了。"
     },
     {
         "grammar": "[N]じゃ（では）あるまいし＜7-1＞",
-        "meaning": "<否定性原因>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<否定性原因>表示否定性的原因，理由，主句一般为说话人的判断，反问，祈使。又不是～，（所以）～",
+        "connection": "N+じゃ（では）あるまいし",
+        "example_jp": "子供じゃあるまいし、そんなこともわからないの？",
+        "example_zh": " 又不是小孩子，连那样的事情都不懂吗？"
     },
     {
         "grammar": "[V]ずにはいられない＜7-1＞",
-        "meaning": "<不由自主>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<不由自主>表示不由自主进行一动作或者自然而然出现该状态。不由得",
+        "connection": "V（ない）＋ずにはいられない／する→せずにはいられない",
+        "example_jp": "新しいグッズが出ると、つい買わずにはいられない。",
+        "example_zh": " 一有新的周边商品出来，就忍不住要买。 "
     },
     {
         "grammar": "すら＜9-2＞",
-        "meaning": "<凸显极端事例>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<凸显极端事例>  表示极端的例子，甚至连～都～、书面语色彩浓厚，多和谓语的否定形式连用",
+        "connection": " N+すら",
+        "example_jp": " この問題は、専門家すら解決できないほど難しい。",
+        "example_zh": " 这个问题难到连专家都无法解决的程度。"
     },
     {
         "grammar": "それに対して／～（の）に対して＜5-2＞",
-        "meaning": "<对比>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<对比>  表示对比，前项和后项是相对的两件事物；与～相对；与～相比",
+        "connection": " 句子+に対して+句子／V/ADJ连体形+のに対して",
+        "example_jp": " 日本のアニメは、ストーリーが重視される傾向がある。それに対して、中国のアニメは、映像の美しさが重視される傾向がある。",
+        "example_zh": " 日本动画倾向于重视故事情节。与之相比，中国动画则倾向于重视画面的美感。"
     },
     {
         "grammar": "だからといって＜5-2＞",
-        "meaning": "<转折>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<转折>  表示转折，前项是事实，但后项并不理所当然；虽然说～，但～；尽管如此，然而",
+        "connection": "中断处使用",
+        "example_jp": " このアニメは、子供向けだ。だからといって、大人が見ても面白くないわけではない。",
+        "example_zh": " 这部动画是面向儿童的。虽然说是这样，但并不意味着成年人看了就不好看。"
     },
     {
         "grammar": "だけ＜6-2＞",
-        "meaning": "<相应程度>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<相应程度> 表示实现某一动作要达到的要求相应的程度；足够（做）～；足以",
+        "connection": " 动词、形容词连体形（非过去式）+だけ",
+        "example_jp": " 生きていけるだけの収入があれば、あとは自分の好きなことをしたい",
+        "example_zh": " 只要有足够的收入养活自己，其他的我想做自己喜欢的事情。"
     },
     {
         "grammar": "～だけあって＜8-2＞",
-        "meaning": "<成正比的因果关系>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<成正比的因果关系>  表示成正比的因果关系，前后句情况相符合；不愧是～；正因为～",
+        "connection": " N/A、V连体形+だけあって",
+        "example_jp": " このアニメは、人気があるだけあって、ストーリーも映像も素晴らしい。",
+        "example_zh": " 这部动画不愧是很受欢迎的，故事情节和画面都很棒。"
     },
     {
         "grammar": "[N]ったら＜10-1＞",
-        "meaning": "<（负面）评价的对象>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<（负面）评价的对象> 表示评价的对象，常常是说话人不满、责备的对象；～啊（表示不满、责备）",
+        "connection": " N+ったら",
+        "example_jp": " あの人ったら、いつも遅刻してばかりいるんだから。",
+        "example_zh": " 那个人啊，总是老是迟到。"
     },
     {
         "grammar": "[V]つつ＜8-2＞",
-        "meaning": "<同时进行><转折>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<同时进行><转折> 表示两个动作同时进行；表示转折，前后句的主语一般是同一个人；一边～一边～；虽然～但～",
+        "connection": " Vます形+つつ",
+        "example_jp": "アンケートの協力を呼びかけつつ、テキパキと参加者を出口へ誘導している。",
+        "example_zh": " 一边呼吁大家配合调查，一边干脆利落地引导参与者往出口走。"
     },
     {
         "grammar": "[V]つつある＜10-2＞",
-        "meaning": "<持续变化>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<持续变化>  表示正在持续变化的状态；正在～；逐渐～；書面语色彩浓厚；对比Vつづける",
+        "connection": " V第一連用形+つつある",
+        "example_jp": " このアニメは、世界中で人気が出つつある。",
+        "example_zh": " 这部动画正在全世界逐渐变得受欢迎。"
     },
     {
         "grammar": "一っぱなし＜7-1＞",
-        "meaning": "<放任>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<放任>  表示放任某个状态不变，常常是说话人对这种状态的不满；一直～；总是～",
+        "connection": " V第一連用形+つつある",
+        "example_jp": " テレビをつけっぱなしにして寝てしまった。",
+        "example_zh": " 电视开着睡着了。"
     },
     {
         "grammar": "一っぽい＜8-2＞",
-        "meaning": "<性质、倾向>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<性质、倾向>　表示具有某种性质、倾向；很～；有点～",
+        "connection": " N／V第一連用形+っぽい",
+        "example_jp": " このアニメは、子供っぽいところがあるけど、ストーリーは大人も楽しめる。",
+        "example_zh": " 这部动画有点孩子气，但故事情节是成年人也能享受的。"
     },
     {
         "grammar": "[V]てからでないと＜8-2＞",
-        "meaning": "<必要条件>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<必要条件>  表示必要条件，前项是后项成立的必要条件；如果不～就～",
+        "connection": "Vて＋からでないと／からでなければ",
+        "example_jp": " 目の病気が治ってから出ないと、プールに入ってはいけません。",
+        "example_zh": " 眼睛的病治好之前，不要下水游泳。"
     },
     {
         "grammar": "[V]てこそ＜7-2＞",
-        "meaning": "<凸显>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<凸显>  强调只有通过做某事或处于某一状态下，才有好的结果or积极意义",
+        "connection": "Vて＋こそ",
+        "example_jp": "団結こそ力であり、団結してこそ勝利することができる。",
+        "example_zh": " 团结就是力量，只有团结才能取得胜利。"
     },
     {
         "grammar": "[A/V]て（で）ならない＜5-2＞",
-        "meaning": "<极端的心理状态>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<极端的心理状态>常常是说话人无法控制的强烈感情；非常～；～得不得了",
+        "connection": " A1くて／A2で／Vて＋ならない",
+        "example_jp": " 保守的な私にしてみれば、京都の景観の変化は残念でならない。",
+        "example_zh": " 对我这个保守的人来说，京都景观的变化令人非常遗憾。"
     },
     {
         "grammar": "[V]てばかりだ／てばかりいる＜7-1＞",
-        "meaning": "<限定状态>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<限定状态> 事情总是反复发生，某一状态一直持续，常常是说话人对这种状态的不满；总是～；光～",
+        "connection": " Vて＋ばかりだ／てばかりいる",
+        "example_jp": " 彼は、仕事をサボってばかりいる。",
+        "example_zh": " 他总是偷懒不干活。"
     },
     {
         "grammar": "～というわけだ＜5-2＞",
-        "meaning": "<说明>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<说明>表示说明，根据前项自然而然得出结论；也就是说～",
+        "connection": "简体句子+というわけだ",
+        "example_jp": "このように、毎日続ければ結果が出るというわけだ。",
+        "example_zh": " 这样的话，每天坚持就会有结果了。"
     },
     {
         "grammar": "～といえば～＜7-2＞",
-        "meaning": "<让步>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<让步> 表示对前项的消极认可。虽不认可该事实，但是存在和预期相反的情况。要说～确实是，（但是）～",
+        "connection": "N/A2词干/V、A1连体+といえば+同一词语",
+        "example_jp": "そこに身を置くわけであるから、当然と言えば当然のことかも。",
+        "example_zh": " 既然要置身于那里，说是理所当然也可能是理所当然的事情。"
     },
     {
         "grammar": "～といってよい＜6-2＞",
-        "meaning": "<评价>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<评价>  表示评价，说话人对所述事物或人进行说明判断；可以说～；可以说是～",
+        "connection": "简体句子+といって良い",
+        "example_jp": "お茶は日常の飲みものだが、薬としての効能もあるといって良い。",
+        "example_zh": " 茶是日常饮品，但也可以说具有药用功效。"
     },
     {
         "grammar": "[Nの／A]ところ（を）＜8-1＞",
-        "meaning": "<对方所处状态>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<对方所处状态>表示对方所处的状态，常常是说话人对对方的行为表示感谢、歉意、请求等；在～的时候；在～的情况下",
+        "connection": " Nの／A连体形+ところ（を）",
+        "example_jp": " お忙しいところを、わざわざ来ていただいてありがとうございます。",
+        "example_zh": " 在您百忙之中特地来，非常感谢。"
     },
     {
         "grammar": "ところが＜5-2＞",
-        "meaning": "<转折>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<转折>  表示转折，前项是说话人预想的情况，后项是与预想相反的情况，有时也用于两项事物的对比；然而；但是",
+        "connection": "两个句子之间",
+        "example_jp": " 遅れないように朝早く出かけた。ところが途中で渋滞に遭い、結局遅刻してしまった。",
+        "example_zh": " 为了不迟到，早上早早出门了。结果在途中遇到了堵车，最后还是迟到了。"
     },
     {
         "grammar": "～とすれば＜6-2＞",
-        "meaning": "<条件>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<条件>  表示假设条件；如果～的话；①空想情境②既定条件+说者的判断；多和仮に、もし呼应，主句多表示说者的判断或愿望",
+        "connection": "简体句子+とすれば",
+        "example_jp": " もし、私が社長だとすれば、社員のためにもっと福利厚生を充実させたいと思う。",
+        "example_zh": " 如果我是老板的话，我想为员工提供更好的福利待遇。"
     },
     {
         "grammar": "[Vた]とたん（に）＜8-2＞",
-        "meaning": "<契机出现>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<契机出现>  表示契机出现，前项是后项发生的契机；刚～就～；有出乎意料的含义",
+        "connection": " Vた形+とたん（に）",
+        "example_jp": " 家を出たとたんに雨が降り出した。",
+        "example_zh": " 刚出门就开始下雨了。"
     },
     {
         "grammar": "とても～ない＜7-2＞",
-        "meaning": "<否定可能性>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<否定可能性>无论用什么方法都无法实现该动作；怎么也～不了；绝对～不了",
+        "connection": " とても+V能动态的否定形式",
+        "example_jp": " この問題は、私にはとても解けない。",
+        "example_zh": " 这个问题我怎么也解不开。"
     },
     {
         "grammar": "～とともに＜9-2＞",
-        "meaning": "<变化>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<变化>  表示伴随变化，前项和后项是同时发生的两个变化；随着～；～的同时～",
+        "connection": " 动作性名词/V辞典型+とともに",
+        "example_jp": " グローバル化の進展や新技術の開発とともに、次々に新しい言葉が現れている。",
+        "example_zh": " 随着全球化的进展和新技术的开发，新的词汇不断出现。"
     },
     {
         "grammar": "[N]となっている＜5-1＞",
-        "meaning": "<既定>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<既定>  表示规定；规定～；定为～",
+        "connection": " N+となっている",
+        "example_jp": " 当駅のホームは禁煙となっております",
+        "example_zh": " 本站台规定禁止吸烟。"
     },
     {
         "grammar": "～ないことはない＜10-1＞",
-        "meaning": "<双重否定>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<双重否定>  表示肯定；并非不～；不是不～",
+        "connection": " A/Vない形+ことはない",
+        "example_jp": " できないことはないかもしれない",
+        "example_zh": " 也许并非不可能。"
     },
     {
         "grammar": "[N1]ならではの[N2]＜6-1＞",
-        "meaning": "<特有的事物>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<特有的事物>表示特有的事物，只有N1才有的N2；只有～才有的～",
+        "connection": " N1+ならではの+N2",
+        "example_jp": " このアニメは、子供ならではの発想が面白い。",
+        "example_zh": " 这部动画有着只有孩子才会有的有趣的想法。"
     },
     {
         "grammar": "～なり（～なり）＜6-2＞",
-        "meaning": "<二者择一>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<二者择一>  表示二者择一，通常可选择的不限于这两个；或是～或是",
+        "connection": "分别皆在表示同类事物的名词或动词词典形后，有时可以只用一个",
+        "example_jp": "そういう服装について泥や埃は、目で見てすぐにわかるので、その泥や埃をはらうなりまた雑巾で拭き取ることもできます",
+        "example_zh": " 对于那样的服装，泥土和灰尘用眼睛就能看出来了，所以可以拍掉那些泥土和灰尘，或者用抹布擦掉。"
     },
     {
         "grammar": "[N]に応じて＜9-1＞",
-        "meaning": "<根据>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<根据>  表示根据某个标准或情况进行相应的动作；根据～；按照～",
+        "connection": " N+に応じて",
+        "example_jp": " 参加人数に応じて場所を変更する可能性がある。",
+        "example_zh": " 根据参加人数可能会更改地点。"
     },
     {
         "grammar": "～にかかわらず／にかかわりなく＜5-2＞",
-        "meaning": "<无区别>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<无区别>    表示无区别，不受某个因素的影响；不管～；无论～；比Nを問わず更泛用一点",
+        "connection": "表示对立概念的名词或者词组+にかかわらず／にかかわりなく",
+        "example_jp": "天気の良し悪しに関わらず、このイベントは開催されます。",
+        "example_zh": " 无论天气好坏，这个活动都会举办。"
     },
     {
         "grammar": "[N]に代わって／に代わり＜10-2＞",
-        "meaning": "<代替>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<代替>  表示代替，代替前项；代替～；由～代替",
+        "connection": " N+に代わって／に代わり",
+        "example_jp": " このアニメは、原作に代わって、オリジナルのストーリーが展開される。",
+        "example_zh": " 这部动画将展开一个原创的故事，代替原作。"
     },
     {
         "grammar": "[N]に関する／に関して＜9-1＞",
-        "meaning": "<内容>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<内容>  表示内容，涉及某个主题；关于～；与～相关；区别于Nについて、に関する更宽泛一点",
+        "connection": " N+に関する／に関して",
+        "example_jp": " このアニメは、友情に関するテーマが描かれている。",
+        "example_zh": " 这部动画描绘了一个关于友情的主题。"
     },
     {
         "grammar": "～に決まっている＜8-2＞",
-        "meaning": "<确信、断定>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<确信、断定>表示确信、断定，说话人对某个事实有把握；肯定～；一定～",
+        "connection": " N/A2词干/V连体形/A1连体形+に決まっている",
+        "example_jp": " そんなうまい話は嘘に決まっている。",
+        "example_zh": " 那样的花言巧语肯定是骗人的。"
     },
     {
         "grammar": "[N]にしてみれば＜5-2＞",
-        "meaning": "<看法>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<看法> 表示看法，从某个立场来看；从～来看",
+        "connection": " N+にしてみれば",
+        "example_jp": " 本人にしてみれば当たり前でも、他の人にはそうでないということがたくさんある。",
+        "example_zh": " 对本人来说是理所当然的，但对其他人来说却不一定是这样，这样的情况有很多。"
     },
     {
         "grammar": "～にすぎない＜9-1＞",
-        "meaning": "<程度低>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<程度低> 仅仅～；不过是～",
+        "connection": " N/A2词干/V连体形/A1连体形+にすぎない",
+        "example_jp": " 外来語の割合は５％程度に過ぎないという報告もあるそうです。",
+        "example_zh": " 据说外来语的比例不过是5%左右。"
     },
     {
         "grammar": "～にちがいない＜9-2＞",
-        "meaning": "<有把握的判断>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<有把握的判断>表示有把握的判断，说话人对某个事实有把握；肯定～；一定～",
+        "connection": " N/A2词干＋（である）+にちがいない",
+        "example_jp": "これだけ表記の揺れがあれば学習者にとって記憶の負担になるに違いない。",
+        "example_zh": " 如果有这么多的表记混乱的话，对学习者来说一定会增加记忆负担。"
     },
     {
         "grammar": "～に伴って／に伴う＜9-2＞",
-        "meaning": "<伴随变化>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<伴随变化>  表示伴随变化，伴随着该动作，变化的发生，相应的发生了后句的变化；随着～",
+        "connection": " 动作性名词+に伴う／に伴って；V辞書形＋（の）＋に伴う／に伴って",
+        "example_jp": "人口の減少に伴う人手不足を補うためには、人工知能の活用が不可欠だ",
+        "example_zh": " 为了弥补人口减少带来的人手不足，利用人工智能是不可缺少的。"
     },
     {
-        "grammar": "[N]に基づいて／に基づき＜7-1＞",
-        "meaning": "<基准>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "grammar": "[N]に基づいて／に基づき＜7-2＞",
+        "meaning": "<基准>  表示基准，基于某个事实、数据、理论等进行判断或行动；根据～；以～为基础；后项一定是做了什么；区别によって",
+        "connection": " N+に基づいて／に基づき；Nに基づくN／Nに基づいたN",
+        "example_jp": " 複雑な状況の中でも、正しい情報と事実に基づいた判断が必要です",
+        "example_zh": " 在复杂的情况下，基于正确的信息和事实进行判断是必要的。"
     },
     {
         "grammar": "[V]ねばならない＜6-2＞",
-        "meaning": "<义务>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<义务> 表示义务，必须做某事；必须～；不得不～",
+        "connection": " V（ない）＋ねばならない／なければならない；する→せねばならない",
+        "example_jp": " 企業を変えるためにはまず社員の考え方を変えねばならない。",
+        "example_zh": " 要改变企业，首先必须改变员工的想法。"
     },
     {
         "grammar": "[Vる]のだった＜6-2＞",
-        "meaning": "<后悔>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<后悔>  表示后悔、说话人后悔没有做某事；要是～就好了；要是～就好了",
+        "connection": " Vる＋のだった（んだった）",
+        "example_jp": " もっと勉強しておけばよかったのだった。",
+        "example_zh": " 要是当时多学习就好了。"
     },
     {
         "grammar": "～のみならず＜10-2＞",
-        "meaning": "<范围>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<范围>表示事物的范围不限于此、だけでなく的书面语版本；不仅～",
+        "connection": " N/A2词干（である）/V连体形/A1连体形+のみならず",
+        "example_jp": "日本国内のみならず、海外でも人気がある。",
+        "example_zh": " 不仅在日本国内，在海外也很受欢迎。"
     },
     {
         "grammar": "～ばかりに＜6-1＞",
-        "meaning": "<消极性的原因>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<消极性的原因>  表示消极性的原因，前项是导致后项不好的结果的原因；仅仅因为～；就是因为～",
+        "connection": "V连体形/A连体形（原型/な）+ばかりに",
+        "example_jp": " はっきりとした理由もないのに、ただ見た目が怖いばかりに、あの人は誤解されている。",
+        "example_zh": " 没有明确的理由，仅仅因为外表看起来可怕，那个人就被误解了。"
     },
     {
         "grammar": "[N]はともかく（として）＜5-2＞",
-        "meaning": "<另当别论>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<另当别论>  表示另当别论，前项是暂且不予讨论的，后项是说话人认为重要的事物；～暂且不说；～先不说",
+        "connection": " N+はともかく（として）",
+        "example_jp": " 賛否はともかく、これも都市の一つの姿である",
+        "example_zh": " 赞成与否先不说，这也是城市的一种面貌。"
     },
     {
         "grammar": "一ぶり＜10-2＞",
-        "meaning": "<状态>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<状态> 表示动作或结果的状态；～的样子",
+        "connection": "N/V第一连用形+ぶり",
+        "example_jp": "さっきの彼女の慌てぶりからして、よっぽど大きなトラブルがあると見える。",
+        "example_zh": " 从刚才她慌乱的样子来看，看来是有很大的麻烦了。"
     },
     {
         "grammar": "[N]までして／[V]てまで＜5-1＞",
-        "meaning": "<极端的程度>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<极端的程度> 为了实现后项而付出的极端的努力；甚至～；不惜～",
+        "connection": "Vて＋まで／N+までして",
+        "example_jp": " あの人は、成功するために、嘘をついてまでして努力している。",
+        "example_zh": " 那个人为了成功，甚至不惜撒谎来努力。"
     },
     {
         "grammar": "[Vる]までもない＜5-2＞",
-        "meaning": "<没有必要>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<没有必要> 没有必要做某事",
+        "connection": " Vる＋までもない",
+        "example_jp": " そんなことは、わざわざ説明するまでもないことだ。",
+        "example_zh": " 那样的事情，不用特地解释也知道了。"
     },
     {
         "grammar": "～まま＜9-2＞",
-        "meaning": "<保持原状>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<保持原状>  表示保持原状，前项的状态一直持续；保持～；就那样～",
+        "connection": " Nの／A連体形/Vた形／ない+まま",
+        "example_jp": " この山はずっと自然のまま、静かなままでいてほしい",
+        "example_zh": " 希望这座山一直保持自然的状态，保持安静。"
     },
     {
         "grammar": "[N]向け＜8-1＞",
-        "meaning": "<对象>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<对象> 表示以某人或群体为对象",
+        "connection": " N+向け",
+        "example_jp": "最近男性向けの料理教室が流行っているようだ。",
+        "example_zh": " 最近面向男性的烹饪教室似乎很流行。"
     },
     {
         "grammar": "～もの＜10-1＞",
-        "meaning": "<强调原因、理由>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<强调原因、理由>表原因，多用于为自己的动作行为辩解，有时也用来表强调；回忆もの的几个用法",
+        "connection": "简体句子+もの",
+        "example_jp": "李さんのためだもの、きっとやってくれるよ",
+        "example_zh": " 是为了李先生的，肯定会帮忙的。"
     },
     {
         "grammar": "～ものだ＜6-1＞",
-        "meaning": "<事物的本质>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<事物的本质>表示说话人的事物的本质、真理、客观规律；～的东西；～的道理",
+        "connection": " V/A连体形+ものだ",
+        "example_jp": "人の心は変わりやすいものだ",
+        "example_zh": " 人的心是容易变的东西。"
     },
     {
         "grammar": "～ものだ＜7-2＞",
-        "meaning": "<回顾、感叹>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<回顾、感叹>用于感慨地回顾过去的某一习惯或经常做的事",
+        "connection": "Vた＋ものだ",
+        "example_jp": " 子供のころは、よく友達と遊んだものだ。",
+        "example_zh": " 小时候经常和朋友们玩。"
     },
     {
         "grammar": "～ものの＜10-2＞",
-        "meaning": "<转折>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<转折>表示从句和主句之间的转折关系、从句和主句之间的转折关系",
+        "connection": "V/A连体形+ものの",
+        "example_jp": " 説明会に行ったものの、入社試験は受けなかった。",
+        "example_zh": " 虽然去了说明会，但没有参加入社考试。"
     },
     {
         "grammar": "[V]ようがない／ようもない＜7-2＞",
-        "meaning": "<无法>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<无法>用任何方法，手段都无法完成某事；无法；VようのないN.",
+        "connection": "V第一连用形+ようがない／ようもない",
+        "example_jp": " この問題は、どんな方法を使っても解決するようがない。",
+        "example_zh": " 这个问题无论用什么方法都无法解决。"
     },
     {
         "grammar": "～ように＜5-2＞",
-        "meaning": "<铺垫>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<铺垫>用于对后面的说明进行铺垫，表示前句所示的事实和后句所要陈述的内容是一致的；正如～一样；如同～一样",
+        "connection": "动作性名词+の／V連体形+ように",
+        "example_jp": " 先ほどの説明のように、外来語の表記には揺れが多い。",
+        "example_zh": " 正如刚才的说明，外来语的表记有很多混乱。"
     },
     {
         "grammar": "[N]を問わず＜5-2＞",
-        "meaning": "<无区别>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<无区别>无论该事物的性质如何，谓语所指的情况都是成立的，常见有「年齢」「季節」「男女」",
+        "connection": "N+を問わず；句子か＋を問わず",
+        "example_jp": " このイベントは、年齢を問わず、誰でも参加できます。",
+        "example_zh": " 这个活动不分年龄，任何人都可以参加。"
     },
     {
         "grammar": "[N]をもって＜7-2＞",
-        "meaning": "<手段、方式>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<手段、方式>表示手段或方式；以～；用～；常与すれば、すると等搭配。一般用于正式场合。",
+        "connection": " N+をもって",
+        "example_jp": " 詳しいことは書面を持ってお知らせいたします",
+        "example_zh": " 详细情况将以书面形式通知您。"
     },
     {
         "grammar": "[V]得る＜2-2＞",
-        "meaning": "<动作行为的可能性>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<动作行为的可能性>表示动作行为的可能性，某个动作行为是可能的；可能～；能够～",
+        "connection": "V第一连用形+得る",
+        "example_jp": "現状で考え得る対策は主に以下の通りです",
+        "example_zh": " 在现状下可以考虑的对策主要如下。"
     },
     {
         "grammar": "[V]がたい＜1-2＞",
-        "meaning": "<难实现>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<难实现>表示动作或状态难以实现；对比づらい",
+        "connection": " V第一连用形+がたい",
+        "example_jp": "世代間に超えがたいギャップがある",
+        "example_zh": " 世代之间存在难以逾越的代沟。"
     },
     {
         "grammar": "〜かと思ったら＜1-2＞",
-        "meaning": "<出乎意料>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<出乎意料> 表示后句叙述的事实与前句叙述的说话人的推测不一致；以为～，（结果）～",
+        "connection": " N/简体句子+かと思ったら",
+        "example_jp": "雨かと思ったら、雪でした。",
+        "example_zh": " 以为是雨，结果是雪了。"
     },
     {
         "grammar": "[N]からいうと＜2-2＞",
-        "meaning": "<判断的依据、基准>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<判断的依据、基准>表示进行判断的依据或基准；从～来看；いうと可以替换成いったら、いえば等；区别于からすると",
+        "connection": " N+からいうと",
+        "example_jp": "僕個人の経験から言うと、世の中の男性は一生のうちでせめて。",
+        "example_zh": " 从我个人的经验来看，世上的男性一生中至少会有一次。"
     },
     {
         "grammar": "[A₁]かれ[A₂]かれ＜2-2＞",
-        "meaning": "<全面肯定>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<全面肯定> 表示无论在何种情况、后项的内容都是成立的；无论～都～",
+        "connection": "分别接在两个意义相反的形容词词干后面",
+        "example_jp": "現代の情報化された生活には、善かれ悪しかれスマホが不可欠になっている。",
+        "example_zh": " 在现代信息化的生活中，无论好坏，智能手机都是不可缺少的。"
     },
     {
-        "grammar": "[Vｓ]ことなく＜1-2＞",
-        "meaning": "<未实行>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "grammar": "[V]ことなく＜1-2＞",
+        "meaning": "<未实行>表示在该动作不实行或未实行的情况下进行后面的动作，与Vないで意义相同，书面语",
+        "connection": " V辞典形+ことなく",
+        "example_jp": "失敗を恐れることなく、どんどん挑戦していってください。",
+        "example_zh": " 请不要害怕失败，勇敢地挑战吧。"
     },
     {
         "grammar": "[V]ずして＜2-2＞",
-        "meaning": "<否定>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<否定>表示否定，即不做该动作而进行后项的动作；〜と呼ばずして何と呼べばいいいだろう惯用",
+        "connection": " Vない形（ず）+して",
+        "example_jp": "「戦わずして勝つ」と言うのは最高の勝利である。",
+        "example_zh": " “不战而胜”是最高的胜利。"
     },
     {
         "grammar": "せめて＜2-2＞",
-        "meaning": "<最低限度>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<最低限度>表示至少应该达到的程度；至少～也好；起码～",
+        "connection": "せめて＋N",
+        "example_jp": "せめて休日ぐらいのんびりさせてくれればいいな。",
+        "example_zh": " 至少在休息日能让我放松一下就好了。"
     },
     {
         "grammar": "[V]そばから＜1-1＞",
-        "meaning": "<先后发生>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<先后发生>即使反复做某动作，也总是很快会出现后句表达的结果。说话者无奈困惑；后项不能使用判断，推测，命令",
+        "connection": " V辞典形/Vた+そばから",
+        "example_jp": " この子は、片付けをしても、そばから散らかしてしまう。",
+        "example_zh": " 这个孩子即使收拾了，也总是很快又弄得乱七八糟了。"
     },
     {
         "grammar": "それにしても＜2-2＞",
-        "meaning": "<让步转折>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<让步转折>表示让步转折，前项的内容虽然是事实，在对该事项认可的基础上提出不同的看法，感谢；即便那样",
+        "connection": " それにしても+句子",
+        "example_jp": "難易度の高い問題だが、それにしても正解者が少な過ぎる。",
+        "example_zh": " 虽然是难度很高的问题，但即便那样，正确答案的人也太少了。"
     },
     {
         "grammar": "[N₁]与いい、[N₂]といい＜2-1＞",
-        "meaning": "<并列举例>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<并列举例>  表示并列举例，前项和后项是并列的两个例子；无论是～还是～；性质类似相同。后往往是评论评价",
+        "connection": "N+といい、N+といい",
+        "example_jp": "経験といい、知識といい、彼はこの分野の専門家だ。",
+        "example_zh": " 无论是经验还是知识，他都是这个领域的专家。"
     },
     {
         "grammar": "〜というところだ＜2-2＞",
-        "meaning": "<阶段、程度>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<阶段、程度>说明事情进行的大致阶段或程度；～的样子，～的情形；だった回忆过去的阶段",
+        "connection": "N/简体句子+と言うところだ",
+        "example_jp": "それから普通なら新聞を読むか、TVを観るか、ラジオをつけるかと言うところだが、僕はそう言うことはやらない",
+        "example_zh": " 之后通常会看报纸、看电视或者听收音机之类的，但我不会做那些事情。"
     },
     {
         "grammar": "[N]ときたら＜1-1＞",
-        "meaning": "<话题>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<话题>提出话题，后句是消极评价/负面事实；说到～",
+        "connection": " N+ときたら",
+        "example_jp": " あの人ときたら、いつも遅刻してばかりいる。",
+        "example_zh": " 说到那个人，他总是迟到。"
     },
     {
         "grammar": "〜としたら＜1-2＞",
-        "meaning": "<假定条件>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<假定条件>假定前项为真，说话人表达在此基础上的判断推测；如果～；假设～",
+        "connection": " 简体句子+としたら",
+        "example_jp": "生まれ変わるとしたら、男か女か、どちらがいいですか",
+        "example_zh": " 如果可以重生的话，男的好还是女的好呢？"
     },
     {
         "grammar": "〜ない限り＜1-2＞",
-        "meaning": "<否定性的唯一条件>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<否定性的唯一条件>  表示否定性的唯一条件，除非满足前项的条件，否则后项的情况不会发生；除非～否则不；只要不～就不",
+        "connection": "N/V/A（ない）+限り",
+        "example_jp": "周りの人に迷惑になるような大声で話していない限り、どこで話してもいいと思います",
+        "example_zh": " 只要不大声说话打扰周围的人，我觉得在哪里说话都可以。"
     },
     {
         "grammar": "なぜ（何故）なら（ば）〜からだ＜2-2＞",
-        "meaning": "<说明原因>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<说明原因>对前述的结论予以解释，说明原因；因为～；之所以～是因为～",
+        "connection": "なぜなら（ば）+简体句子+からだ",
+        "example_jp": "なぜならその当時は、まだインターネットが普及していなかったからだ",
+        "example_zh": " 因为那个时候互联网还没有普及。"
     },
     {
         "grammar": "なりとも＜2-2＞",
-        "meaning": "<例示>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<例示>列举最低程度的事例，表示最低程度的事例；哪怕～也好",
+        "connection": "表示程度之轻微的名词或副词+なりとも",
+        "example_jp": "一円なりとも無駄に使ってはダメだ",
+        "example_zh": " 哪怕是一日元也不能浪费。"
     },
     {
         "grammar": "[N]にも增して＜2-1＞",
-        "meaning": "<超过基准>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<超过基准>表示超过基准，前项（多为时间）是基准，后项超过了前项；比～更～",
+        "connection": "时间名词（或代词，疑问词）等+にも增して",
+        "example_jp": "去年にも増して、今年は暑い夏になりそうだ。",
+        "example_zh": " 比去年更热，今年的夏天似乎会很热。"
     },
     {
         "grammar": "[N]の／[V]ついでに＜2-2＞",
-        "meaning": "<动作的并行>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<动作的并行>趁着某个动作的机会，同时进行另一个动作；顺便～；趁～",
+        "connection": "N+の／V连体形+ついでに",
+        "example_jp": " 買い物のついでに、郵便局に寄ってきます。",
+        "example_zh": " 顺便去买东西，我会顺路去邮局。"
     },
     {
         "grammar": "〜反面＜1-2＞",
-        "meaning": "<相反的两面>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<相反的两面>同一事物的相反的两面，前项和后项是相反的两面；一方面～另一方面～",
+        "connection": "动词、形容词连体形+反面；名词/A2词干+である+反面",
+        "example_jp": "便利である反面、それほど必要のない物や高額なものを値段を意識しないで買ってしまうと言うことが起こりがちです",
+        "example_zh": " 虽然很方便，但也容易发生不考虑价格就买那些不太必要的东西或者价格昂贵的东西的情况。"
     },
     {
         "grammar": "〜まま＜2-2＞",
-        "meaning": "<保持原状>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<保持原状>  表示保持原状，前项的状态一直持续；保持～；就那样～",
+        "connection": " Nの／A连体形/Vた形／ない+まま",
+        "example_jp": " この山はずっと自然のまま、静かなままでいてほしい",
+        "example_zh": " 希望这座山一直保持自然的状态，保持安静。"
     },
     {
         "grammar": "[N]をめぐって／めぐる＜1-2＞",
-        "meaning": "<中心点>",
-        "connection": "",
-        "example_jp": "",
-        "example_zh": ""
+        "meaning": "<中心点>很多人就某一中心问题进行讨论，前项是中心问题，后项是围绕该问题进行的讨论；围绕～；就～进行。后面常接話し合う、争う、喧嘩",
+        "connection": "N+をめぐって／N+をめぐるN",
+        "example_jp": " 教育改革をめぐって、さまざまな議論が起きている",
+        "example_zh": " 围绕教育改革，发生了各种各样的讨论。"
     }
 ]
